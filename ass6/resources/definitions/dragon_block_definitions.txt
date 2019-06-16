@@ -1,0 +1,10 @@
+# default values for blocks
+default height:25 width:25
+
+# block definitions
+bdef symbol:r hit_points:1 fill:image(block_images/rsz_2baby.jpg)
+bdef symbol:b hit_points:1 fill-1:color(red)
+
+
+# spacers definitions
+sdef symbol:- width:25

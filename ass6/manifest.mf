@@ -1,0 +1,4 @@
+Created-By: Daniel Dor
+Manifest-Version: 17.06.18
+Class-Path: biuoop-1.4.jar
+Main-Class: Ass6Game

@@ -1,0 +1,5 @@
+# block definitions
+bdef symbol:l width:100 height:100 hit_points:3 fill:image(block_images/cat3.jpg) fill-2:image(block_images/cat2.jpg) fill-3:image(block_images/cat1.jpg)
+
+# spacers definitions
+sdef symbol:- width:30
