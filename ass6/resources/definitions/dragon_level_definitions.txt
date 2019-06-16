@@ -1,0 +1,79 @@
+
+
+# Level 1
+# the moon with different block definitions
+
+START_LEVEL
+level_name:Square Funny cat
+ball_velocities:45,500
+background:image(background_images/cat.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/cat_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:8
+START_BLOCKS
+-l--l------l--l
+------
+-l--l------l--l
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Single block direct hit
+
+
+START_LEVEL
+level_name:Baby
+ball_velocities:0,450 60,450
+background:image(background_images/rsz_face.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/dragon_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:88
+START_BLOCKS
+
+----rrrrrrrrr------rrrrrrrrr--
+----r--rrr--r------r--rrr--r--
+---rr--rrr--rr----rr--rrr--rr-
+----rrrrrrrrr------rrrrrrrrr--
+-----rbbbbbr--------rbbbbbr---
+-----rrrrrrr--------rrrrrrr---
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: Groottt
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/rsz_groot.jpg)
+paddle_speed:250
+paddle_width:450
+block_definitions:definitions/groot_block_definitions.txt
+blocks_start_x:20
+blocks_start_y:80
+row_height:25
+num_blocks:68
+START_BLOCKS
+
+-ttttt-ttttt--------
+-t-----t---t-ttttt-ttttt-ttttt-
+-t--tt-ttttt-t---t-t---t---t
+-t---t-t-t---t---t-t---t---t
+-ttttt-t--t--ttttt-ttttt---t
+
+
+
+END_BLOCKS
+END_LEVEL
+
